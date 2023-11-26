@@ -1,0 +1,37 @@
+{
+  "name": "djilog",
+  "version": "0.0.1",
+  "description": "DJI log parser",
+  "main": "dist/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "ts-jest --silent=false",
+    "build": "tsc"
+  },
+  "keywords": [
+    "dji",
+    "log",
+    "djilog",
+    "logs",
+    "logging",
+    "parser",
+    "drone",
+    "mavic",
+    "mini",
+    "phantom",
+    "djidrone"
+  ],
+  "author": "Ramon de Leon",
+  "license": "MIT",
+  "dependencies": {
+    "bytebuffer": "^5.0.1"
+  },
+  "devDependencies": {
+    "@types/bytebuffer": "^5.0.48",
+    "@types/jest": "^29.5.10",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1"
+  }
+}

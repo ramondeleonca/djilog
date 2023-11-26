@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "incremental": true,
+        "declaration": true,
+        "outDir": "./dist/",
+        "resolveJsonModule": true,
+        "moduleResolution": "Node",
+        "module": "CommonJS",
+        "target": "ES5",
+        "allowSyntheticDefaultImports": true
+    }
+}
